@@ -1,0 +1,11 @@
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\Dgi.Email.Test.deps.json
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\Dgi.Email.Test.runtimeconfig.json
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\Dgi.Email.Test.runtimeconfig.dev.json
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\Dgi.Email.Test.dll
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\Dgi.Email.Test.pdb
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\obj\Debug\netcoreapp1.1\Dgi.Email.Test.AssemblyInfo.cs
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\obj\Debug\netcoreapp1.1\Dgi.Email.Test.dll
+C:\Users\00jacob\documents\visual studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\obj\Debug\netcoreapp1.1\Dgi.Email.Test.pdb
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\xunit.runner.utility.netstandard15.dll
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Test\bin\Debug\netcoreapp1.1\xunit.runner.reporters.netstandard15.dll

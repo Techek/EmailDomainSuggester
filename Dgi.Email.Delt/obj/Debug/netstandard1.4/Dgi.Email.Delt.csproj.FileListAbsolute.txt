@@ -1,0 +1,14 @@
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.deps.json
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.dll
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.pdb
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.AssemblyInfo.cs
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.dll
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.pdb
+C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.csprojResolveAssemblyReference.cache
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.deps.json
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.dll
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\bin\Debug\netstandard1.4\Dgi.Email.Delt.pdb
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.csprojResolveAssemblyReference.cache
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.AssemblyInfo.cs
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.dll
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Delt\obj\Debug\netstandard1.4\Dgi.Email.Delt.pdb

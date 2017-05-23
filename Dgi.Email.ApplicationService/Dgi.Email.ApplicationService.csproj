@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dgi.Email.Dal\Dgi.Email.Dal.csproj" />
+    <ProjectReference Include="..\Dgi.Email.Delt\Dgi.Email.Delt.csproj" />
+  </ItemGroup>
+
+</Project>
