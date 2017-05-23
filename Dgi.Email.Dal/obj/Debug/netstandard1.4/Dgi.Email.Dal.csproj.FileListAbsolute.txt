@@ -8,7 +8,7 @@ C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\bin\Debug\netstandard1.4\Dgi.Email.Dal.deps.json
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\bin\Debug\netstandard1.4\Dgi.Email.Dal.dll
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\bin\Debug\netstandard1.4\Dgi.Email.Dal.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\obj\Debug\netstandard1.4\Dgi.Email.Dal.csprojResolveAssemblyReference.cache
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\obj\Debug\netstandard1.4\Dgi.Email.Dal.AssemblyInfo.cs
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\obj\Debug\netstandard1.4\Dgi.Email.Dal.dll
 C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\obj\Debug\netstandard1.4\Dgi.Email.Dal.pdb
+C:\git_jkl\EmailDomainSuggester\Dgi.Email.Dal\obj\Debug\netstandard1.4\Dgi.Email.Dal.csprojResolveAssemblyReference.cache
