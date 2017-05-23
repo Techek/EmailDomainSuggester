@@ -15,21 +15,21 @@ namespace Dgi.Host.Controllers
         }
 
         [HttpGet("api/helloworld")]
-        public object HelloWorld()
+        public DgiResponse<object> HelloWorld()
         {
-            return new
+            return new DgiResponse<object>(new
             {
                 message = "Hello World",
                 time = DateTime.Now
-            };
+            });
         }
 
         [HttpPost("api/verify")]
-        public bool Verify([FromBody]string emailadresse)
+        public DgiResponse<bool> Verify([FromBody] string emailadresse)
         {
             IEmailService emailService = _serviceProvider.GetRequiredService<IEmailService>();
 
-            return emailService.Verify(emailadresse);
+            return new DgiResponse<bool>(emailService.Verify(emailadresse));
         }
     }
 }

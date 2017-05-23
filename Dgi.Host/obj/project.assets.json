@@ -4162,6 +4162,13 @@
         "dependencies": {
           "NETStandard.Library": "1.6.1"
         }
+      },
+      "Dgi.Utils/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v1.4",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        }
       }
     }
   },
@@ -10743,12 +10750,18 @@
       "type": "project",
       "path": "../Dgi.Email.Delt/Dgi.Email.Delt.csproj",
       "msbuildProject": "../Dgi.Email.Delt/Dgi.Email.Delt.csproj"
+    },
+    "Dgi.Utils/1.0.0": {
+      "type": "project",
+      "path": "../Dgi.Utils/Dgi.Utils.csproj",
+      "msbuildProject": "../Dgi.Utils/Dgi.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v1.1": [
       "Dgi.Email.ApplicationService >= 1.0.0",
       "Dgi.Email.Dal >= 1.0.0",
+      "Dgi.Utils >= 1.0.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore >= 1.1.2",
       "Microsoft.AspNetCore.Mvc >= 1.1.3",
@@ -10779,6 +10792,9 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
+            "C:\\git_jkl\\EmailDomainSuggester\\Dgi.Utils\\Dgi.Utils.csproj": {
+              "projectPath": "C:\\git_jkl\\EmailDomainSuggester\\Dgi.Utils\\Dgi.Utils.csproj"
+            },
             "C:\\git_jkl\\EmailDomainSuggester\\Dgi.Email.ApplicationService\\Dgi.Email.ApplicationService.csproj": {
               "projectPath": "C:\\git_jkl\\EmailDomainSuggester\\Dgi.Email.ApplicationService\\Dgi.Email.ApplicationService.csproj"
             },

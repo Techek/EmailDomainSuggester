@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Dgi.Email.ApplicationService\Dgi.Email.ApplicationService.csproj" />
     <ProjectReference Include="..\Dgi.Email.Dal\Dgi.Email.Dal.csproj" />
+    <ProjectReference Include="..\Dgi.Utils\Dgi.Utils.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="wwwroot\" />
