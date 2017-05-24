@@ -6,7 +6,7 @@ namespace Dgi.Email.Dal.Repositories
 {
     public class EmailRepository : IEmailRepository
     {
-        public bool HarMxRecord(string emailadresse)
+        public bool HarMxRecord(string domaene)
         {
             var domaener = new List<string>()
             {
@@ -14,7 +14,7 @@ namespace Dgi.Email.Dal.Repositories
                 "gmail.com"
             };
 
-            return domaener.Any(d => emailadresse.EndsWith(d, StringComparison.CurrentCultureIgnoreCase));
+            return domaener.Any(d => domaene.Equals(d, StringComparison.CurrentCultureIgnoreCase));
         }
     }
 }

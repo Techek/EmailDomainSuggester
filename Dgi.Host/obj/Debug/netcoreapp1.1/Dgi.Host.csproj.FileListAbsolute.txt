@@ -13,18 +13,3 @@ C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.AssemblyInfo.cs
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.dll
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Host.deps.json
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Host.runtimeconfig.json
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Host.runtimeconfig.dev.json
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Host.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Host.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.ApplicationService.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.Dal.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.Delt.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.ApplicationService.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.Dal.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\bin\Debug\netcoreapp1.1\Dgi.Email.Delt.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.csprojResolveAssemblyReference.cache
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.AssemblyInfo.cs
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Host\obj\Debug\netcoreapp1.1\Dgi.Host.pdb

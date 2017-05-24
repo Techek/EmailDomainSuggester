@@ -19,9 +19,31 @@ namespace Dgi.Email.ApplicationService.Services
             return null;
         }
 
-        public bool Verify(string emailaddress)
+        public bool Verify(string emailadresse)
         {
-            return _emailRepository.HarMxRecord(emailaddress);
+            var domaene = HentDomaene(emailadresse);
+            if (string.IsNullOrEmpty(domaene))
+            {
+                return false;
+            }
+
+            return _emailRepository.HarMxRecord(domaene);
+        }
+
+        private string HentDomaene(string emailadresse)
+        {
+            if (string.IsNullOrEmpty(emailadresse))
+            {
+                return "";
+            }
+
+            var parts = emailadresse.Split('@');
+            if (parts.Length == 0)
+            {
+                return "";
+            }
+
+            return parts[parts.Length - 1];
         }
     }
 }

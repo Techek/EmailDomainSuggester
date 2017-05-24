@@ -9,14 +9,3 @@ C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.AssemblyInfo.cs
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.dll
 C:\Users\00jacob\Documents\Visual Studio 2017\Projects\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.ApplicationService.deps.json
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.ApplicationService.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.ApplicationService.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.Dal.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.Delt.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.Dal.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\bin\Debug\netstandard1.4\Dgi.Email.Delt.pdb
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.csprojResolveAssemblyReference.cache
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.AssemblyInfo.cs
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.dll
-C:\git_jkl\EmailDomainSuggester\Dgi.Email.ApplicationService\obj\Debug\netstandard1.4\Dgi.Email.ApplicationService.pdb
