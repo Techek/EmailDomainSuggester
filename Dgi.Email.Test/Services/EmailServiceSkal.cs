@@ -19,7 +19,7 @@ namespace Dgi.Email.Test.Services
             var result = emailService.Verify(emailadresse);
 
             // Assert
-            Assert.True(result);
+            Assert.False(result);
         }
 
         [Fact]
@@ -37,7 +37,7 @@ namespace Dgi.Email.Test.Services
         }
 
         [Fact]
-        public void GodkendeEmailadresse_NaarEmailadresseHarFlereDomaenedeleOgEnderMedKendtDomaene()
+        public void IkkeGodkendeEmailadresse_NaarEmailadresseHarFlereDomaenedeleOgEnderMedKendtDomaene()
         {
             // Arrange
             string emailadresse = "jacob.kamp.lund@abc.dk@dgi.dk";
@@ -47,7 +47,7 @@ namespace Dgi.Email.Test.Services
             var result = emailService.Verify(emailadresse);
 
             // Assert
-            Assert.True(result);
+            Assert.False(result);
         }
 
         [Fact]

@@ -29,16 +29,21 @@ namespace Dgi.Email.ApplicationService.Services
         {
             if (string.IsNullOrEmpty(emailadresse))
             {
-                return "";
+                return null;
+            }
+
+            if (emailadresse.IndexOf('@') < 0)
+            {
+                return null;
             }
 
             var parts = emailadresse.Split('@');
-            if (parts.Length == 0)
+            if (parts.Length == 2)
             {
-                return "";
+                return parts[1];
             }
 
-            return parts[parts.Length - 1];
+            return null;
         }
     }
 }

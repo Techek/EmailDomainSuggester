@@ -1,7 +1,6 @@
 ﻿using System;
 using Dgi.Email.Delt.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyInjection;
 
 namespace Dgi.Host.Controllers
 {
