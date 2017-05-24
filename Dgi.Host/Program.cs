@@ -17,9 +17,8 @@ namespace Dgi.Host
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
-                //.UseSetting("detailedErrors", "true")
+                .UseSetting("detailedErrors", "true")
                 //.UseEnvironment("Development")
-                //.UseUrls("http://localhost:52736")
                 //.UseWebRoot("public")
                 .Build();
 

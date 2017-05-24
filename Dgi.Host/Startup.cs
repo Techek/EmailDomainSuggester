@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Dgi.Email.ApplicationService.Services;
 using Dgi.Email.Dal.Repositories;
@@ -23,7 +24,20 @@ namespace Dgi.Host
             services.AddScoped<IEmailRepository, EmailRepository>();
             services.AddScoped<IEmailService, EmailService>();
 
+            //Assembly assembly = null;
+            //assembly = typeof(Dgi.Email.ApplicationService.Services.EmailService).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.Dal.Repositories.EmailRepository).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.Dal.Repositories.IEmailRepository).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.Delt.Dtoer.QueryDto).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.Delt.Dtoer.QueryResultDto).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.Delt.Interfaces.IEmailService).GetTypeInfo().Assembly;
+            //assembly = typeof(Dgi.Email.WebApi.Controllers.EmailController).GetTypeInfo().Assembly;
+
             services.AddMvc();
+
+            //services.AddMvc().AddApplicationPart(assembly);
+            //services.AddApplicationPart(typeof().GetTypeInfo().Assembly);
+            //services.AddMvc().AddControllersAsServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

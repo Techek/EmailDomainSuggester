@@ -14,11 +14,6 @@ namespace Dgi.Email.ApplicationService.Services
             _emailRepository = emailRepository;
         }
 
-        public QueryResultDto Lookup(QueryDto dto)
-        {
-            return null;
-        }
-
         public bool Verify(string emailadresse)
         {
             var domaene = HentDomaene(emailadresse);

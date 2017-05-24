@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 using Dgi.Email.Delt.Interfaces;
+using Dgi.Host.Controllers;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyInjection;
 
-namespace Dgi.Host.Controllers
+namespace Dgi.Email.WebApi.Controllers
 {
     public class EmailController
     {
