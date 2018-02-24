@@ -17,8 +17,6 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Dgi.Email.ApplicationService\Dgi.Email.ApplicationService.csproj" />
-    <ProjectReference Include="..\Dgi.Email.Dal\Dgi.Email.Dal.csproj" />
     <ProjectReference Include="..\Dgi.Utils\Dgi.Utils.csproj" />
   </ItemGroup>
   <ItemGroup>
