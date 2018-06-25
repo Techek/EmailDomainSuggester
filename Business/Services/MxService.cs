@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using DAL;
+using System.Text.RegularExpressions;
 
 namespace Business
 {
@@ -29,7 +30,10 @@ namespace Business
             #region Version 1 - Pattern match
 
             //Regex rx = new Regex(@"^([\.\-0-9a-zöäüé]+)\tmx preference = ([0-9]+), mail exchanger = ([\.\-0-9a-zöäüé]+)$", RegexOptions.IgnoreCase);
-            //Regex rx = new Regex(@"^(.+)\tmx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
+            var rx = new Regex(@"^(.+)\tmx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
+            //var rx = new Regex(@"^" + domain + "\tmx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
+
+            //found = lines.Any(l => rx.IsMatch(l));
 
             //for (int i = 0; i < lines.Length; i++)
             //{
@@ -37,6 +41,8 @@ namespace Business
             //    Match m = rx.Match(line);
             //    if (m.Success)
             //    {
+            //        found = true;
+            //        break;
             //        GroupCollection g = m.Groups;
             //        if (g.Count > 1)
             //        {
@@ -46,7 +52,7 @@ namespace Business
             //            }
             //            Console.Write("\n");
             //        }
-            //    }
+            //}
             //}
 
             #endregion
