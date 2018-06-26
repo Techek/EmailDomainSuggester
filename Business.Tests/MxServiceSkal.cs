@@ -11,15 +11,13 @@ namespace Business.Tests
         public void ReturnereFalseNaarIngenMxRecordsReturneres()
         {
             // Arrange
-            string nslookup = null;
-
             var fakeMxRepo = A.Fake<IMxRepository>();
             A.CallTo(() => fakeMxRepo.GetMxRecords(A<string>.Ignored)).Returns(null);
 
             var target = new MxService(fakeMxRepo);
 
             // Act
-            var actual = target.HasMxRecord("ligegyldig");
+            var actual = target.HasMxRecord("falskfalskfalsk.dk");
 
             // Assert
             Assert.IsFalse(actual);
@@ -42,7 +40,31 @@ Address:  192.168.1.121
             var target = new MxService(fakeMxRepo);
 
             // Act
-            var actual = target.HasMxRecord("ligegyldig");
+            var actual = target.HasMxRecord("falskfalskfalsk.dk");
+
+            // Assert
+            Assert.IsFalse(actual);
+        }
+
+        [TestMethod]
+        public void ReturnereFalseMxRecordsIkkeMatcherForespurgtDomaene()
+        {
+            // Arrange
+            var nslookup = @"
+Server:  ad01.dgi.ds
+Address:  192.168.1.121
+
+etandetdomaene.dk  MX preference = 0, mail exchanger = mail.etandetdomaene.dk
+mail.dgi.dk     internet address = 172.16.0.68
+";
+
+            var fakeMxRepo = A.Fake<IMxRepository>();
+            A.CallTo(() => fakeMxRepo.GetMxRecords(A<string>.Ignored)).Returns(nslookup);
+
+            var target = new MxService(fakeMxRepo);
+
+            // Act
+            var actual = target.HasMxRecord("dgi.dk");
 
             // Assert
             Assert.IsFalse(actual);
@@ -66,7 +88,7 @@ mail.dgi.dk     internet address = 172.16.0.68
             var target = new MxService(fakeMxRepo);
 
             // Act
-            var actual = target.HasMxRecord("ligegyldig");
+            var actual = target.HasMxRecord("dgi.dk");
 
             // Assert
             Assert.IsTrue(actual);
@@ -85,14 +107,14 @@ dgi.dk  MX preference = 30, mail exchanger = mail2.dgi.dk
 dgi.dk  MX preference = 10, mail exchanger = mail3.dgi.dk
 mail.dgi.dk     internet address = 172.16.0.68
 ";
-            
+
             var fakeMxRepo = A.Fake<IMxRepository>();
             A.CallTo(() => fakeMxRepo.GetMxRecords(A<string>.Ignored)).Returns(nslookup);
 
             var target = new MxService(fakeMxRepo);
 
             // Act
-            var actual = target.HasMxRecord("ligegyldig");
+            var actual = target.HasMxRecord("dgi.dk");
 
             // Assert
             Assert.IsTrue(actual);

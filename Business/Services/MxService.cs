@@ -29,31 +29,20 @@ namespace Business
 
             #region Version 1 - Pattern match
 
-            //Regex rx = new Regex(@"^([\.\-0-9a-zöäüé]+)\tmx preference = ([0-9]+), mail exchanger = ([\.\-0-9a-zöäüé]+)$", RegexOptions.IgnoreCase);
-            var rx = new Regex(@"^(.+)\tmx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
-            //var rx = new Regex(@"^" + domain + "\tmx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
+            var rx = new Regex(@"^(" + domain.Replace(".", @"\.") + @")\s+mx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
 
-            //found = lines.Any(l => rx.IsMatch(l));
+            return lines.Any(line => rx.IsMatch(line));
 
             //for (int i = 0; i < lines.Length; i++)
             //{
             //    string line = lines[i];
-            //    Match m = rx.Match(line);
-            //    if (m.Success)
+            //    var m = rx.Match(line);
+            //    if (m.Success && m.Groups.Count > 0 && m.Groups[1].Value == domain)
             //    {
-            //        found = true;
-            //        break;
-            //        GroupCollection g = m.Groups;
-            //        if (g.Count > 1)
-            //        {
-            //            for (int j = 1; j < g.Count; j++)
-            //            {
-            //                Console.Write("[" + g[j] + "]");
-            //            }
-            //            Console.Write("\n");
-            //        }
+            //        return true;
+            //    }
             //}
-            //}
+            //return false;
 
             #endregion
 
@@ -68,16 +57,15 @@ namespace Business
             //        break;
             //    }
             //}
+            //return false;
 
             #endregion
 
             #region Version 3 - LINQ
 
-            found = lines.Any(l => l.Contains("MX preference = "));
+            return lines.Any(l => l.Contains("MX preference = "));
 
             #endregion
-
-            return found;
         }
     }
 }
