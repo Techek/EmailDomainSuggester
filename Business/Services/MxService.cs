@@ -23,49 +23,18 @@ namespace Business
                 return false;
             }
 
-            bool found = false;
+            string[] lines = nslookupResult.Split("\r\n");
 
-            string[] lines = nslookupResult.Split('\n');
+            var rx = new Regex(@"^(.*[^\s])\s+mx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
 
-            #region Version 1 - Pattern match
+            return lines.Any(line =>
+            {
+                if (string.IsNullOrEmpty(line))
+                    return false;
 
-            var rx = new Regex(@"^(" + domain.Replace(".", @"\.") + @")\s+mx preference = ([0-9]+), mail exchanger = (.+)$", RegexOptions.IgnoreCase);
-
-            return lines.Any(line => rx.IsMatch(line));
-
-            //for (int i = 0; i < lines.Length; i++)
-            //{
-            //    string line = lines[i];
-            //    var m = rx.Match(line);
-            //    if (m.Success && m.Groups.Count > 0 && m.Groups[1].Value == domain)
-            //    {
-            //        return true;
-            //    }
-            //}
-            //return false;
-
-            #endregion
-
-            #region Version 2 - Loop and match
-
-            //for (int i = 0; i < lines.Length; i++)
-            //{
-            //    string line = lines[i];
-            //    if (line.Contains("MX preference = "))
-            //    {
-            //        found = true;
-            //        break;
-            //    }
-            //}
-            //return false;
-
-            #endregion
-
-            #region Version 3 - LINQ
-
-            return lines.Any(l => l.Contains("MX preference = "));
-
-            #endregion
+                var m = rx.Match(line);
+                return (m.Success && m.Groups.Count > 0 && m.Groups[1].Value == domain);
+            });
         }
     }
 }
