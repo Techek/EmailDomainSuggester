@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using DAL;
+﻿using System.Linq;
 using System.Text.RegularExpressions;
+using Business.Interfaces;
+using DAL;
 
-namespace Business
+namespace Business.Services
 {
     public class MxService : IMxService
     {

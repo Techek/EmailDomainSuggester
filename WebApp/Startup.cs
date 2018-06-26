@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Business;
+using Business.Interfaces;
+using Business.Services;
 using DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using WebApp.Controllers;
 
 namespace WebApp
 {
@@ -28,6 +31,7 @@ namespace WebApp
             services.AddMvc();
             services.AddTransient<IMxService, MxService>();
             services.AddTransient<IMxRepository, MxRepository>();
+            services.AddTransient<ISidGenerator, SidGenerator>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
